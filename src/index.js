@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const pizzaRecipe = {
   crust: "extra-thin",
   topping: ["cheese", "mushrooms", "corn"],
