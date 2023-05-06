@@ -1,12 +1,6 @@
+import { createRoot } from "react-dom";
 import "./styles/index.scss";
+import App from "./App";
+const root = createRoot(document.getElementById("root"));
 
-const pizzaRecipe = {
-  crust: "extra-thin",
-  topping: ["cheese", "mushrooms", "corn"],
-  extra_cheese: true,
-};
-const pizza = { ...pizzaRecipe, size: "large" };
-
-console.log(pizzaRecipe);
-console.log(pizza);
-console.log("hey");
+root.render(<App />);
